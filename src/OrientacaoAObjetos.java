@@ -54,7 +54,7 @@ public class OrientacaoAObjetos {
         String serie;
         int index = contagemAlunos(alunos);
 
-        System.out.println("-".repeat(50));
+        //System.out.println("-".repeat(50));
         System.out.println("TOTAL DE ALUNOS CADASTRADOS (Max 100): " + index);
         System.out.print("Digite quantos alunos deseja cadastar: ");
         int entrada = sc.hasNextInt() ? sc.nextInt() : -1;
